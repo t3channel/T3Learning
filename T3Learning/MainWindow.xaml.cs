@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using T3Learning.Views;
 
 namespace T3Learning
 {
@@ -19,6 +20,8 @@ namespace T3Learning
         public MainWindow()
         {
             InitializeComponent();
+
+            Content = new ChatView();
         }
     }
 }
